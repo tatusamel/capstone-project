@@ -39,7 +39,7 @@
       }
       .poster img {
         width: 100%;
-        max-width: 300px;
+        max-width: 500px;
         height: auto;
       }
       .btn-download {
@@ -54,6 +54,31 @@
       }
       .btn-download:hover {
         background-color: #0056b3;
+      }
+      .team-members {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 20px;
+      }
+      .team-member {
+        text-align: center;
+        margin: 10px;
+      }
+      .team-member img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 10px;
+      }
+      .team-member h3 {
+        margin: 0;
+        font-size: 1.2em;
+      }
+      .team-member p {
+        margin: 5px 0 0 0;
+        color: #555;
       }
     </style>
   </head>
@@ -110,6 +135,30 @@
       feature allows users to organize and manage their messages more
       effectively.
     </p>
+
+    <h2>Team Members</h2>
+    <div class="team-members">
+      <div class="team-member">
+        <img src="serhat.jpg" alt="Serhat Gündem" />
+        <h3>Serhat Gündem</h3>
+        <p>2200356820</p>
+      </div>
+      <div class="team-member">
+        <img src="mert.jpg" alt="Abdullah Mert Dinçer" />
+        <h3>Abdullah Mert Dinçer</h3>
+        <p>2200356016</p>
+      </div>
+      <div class="team-member">
+        <img src="hasim.jpg" alt="Haşim Zafer Çiçek" />
+        <h3>Haşim Zafer Çiçek</h3>
+        <p>21990629</p>
+      </div>
+      <div class="team-member">
+        <img src="yucel.jpg" alt="Yücel Pala" />
+        <h3>Yücel Pala</h3>
+        <p>21991896</p>
+      </div>
+    </div>
 
     <h2>Project Executables/Source Code</h2>
     <a
